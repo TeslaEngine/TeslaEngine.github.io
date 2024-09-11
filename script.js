@@ -14,7 +14,7 @@ window.onload = function(){
     }
   }
 
-  xhr.open("GET", "/sounds/limiter.wav", true);
+  xhr.open("GET", "limiter.wav", true);
   xhr.responseType = "arraybuffer";
   xhr.onload = function(e){
     var audioData = this.response;
